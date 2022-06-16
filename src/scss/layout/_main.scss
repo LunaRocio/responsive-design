@@ -34,6 +34,35 @@
                 font-size: 1rem;
             }
         }
+        &__section2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 90px 0;
+            color: $color-main-font;
+                &--h4{
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin: 15px 0;
+                } 
+                &--p{
+                    font-size: 14px;
+                    padding-bottom: 40px;
+                }
+                &--a{
+                    color: white;
+                    background-color: $color-main-font;
+                    padding: 12px 24px;
+                    border: none;
+                    font-family: $font-main;
+                    font-weight: 600;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+        }
 
 }
 .container__main img{
@@ -73,5 +102,7 @@
 .delivery {
     background-color: $color-bg-secondary;
 }
-
+.products{
+    background-color: $color-bg;
+}
 // section
