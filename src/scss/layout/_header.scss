@@ -1,14 +1,16 @@
 .header{
-  width: 100%;
-  height: 100vh;
-  background-image: url('../images/header.jpg');
-  background-repeat: no-repeat;
-  background-color: white;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
   
       &__bar{
           position: fixed;
@@ -21,7 +23,23 @@
           height: auto;
           margin-top: 20px;
       }
-      &__title{
+      &__h1{
+        color: $color-main-font;
         font-family: $font-main;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 65px;
       }
+      &__button {
+        margin-top: 75px;
+        color: white;
+        background-color: $color-main-font;
+        padding: 12px 24px;
+        border: none;
+        font-family: $font-main;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+
 }
