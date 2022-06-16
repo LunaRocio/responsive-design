@@ -13,3 +13,12 @@
 @import 'core/reset';
 @import 'layout/header';
 
+.container {
+    margin: 0 45px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+    text-align: center;
+}
