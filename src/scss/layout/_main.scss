@@ -1,0 +1,49 @@
+.container {
+    padding: 0 45px;    
+        &__main{
+        background-color: $color-bg;
+        color: $color-main-font;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 45px;
+        justify-items: center;
+        padding-bottom: 45px;
+        
+}
+}
+.container__main img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 45px;
+    
+
+}
+.container__main h3{
+    font-family: $font-main;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 12px;
+    
+    
+}
+.container__main p{
+    text-align: center;
+    max-width: 210px;
+    
+}
+.box1{
+    margin-top: 40px;
+    &__h2{
+        font-size: 24px;
+        font-weight: 600;
+        &--span{
+            text-transform: uppercase;
+        }
+    }
+}
+.diferent-h3  {
+    width: 16ch;
+    text-align: center;
+}
+

@@ -12,41 +12,8 @@
 @import 'core/variables';
 @import 'core/reset';
 @import 'layout/header';
+@import 'layout/main';
 
 :root {
     font-family: $font-main;
-   
 }
-.container {
-    padding: 0 45px;    
-        &__main{
-        background-color: $color-bg;
-        color: $color-main-font;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 45px;
-        
-}
-}
-.container__main img{
-    width: 90px;
-    height: 100px;
-
-}
-.container__main h3{
-    font-family: $font-main;
-    font-weight: 600;
-    font-size: 24px;
-}
-.box1{
-    margin-top: 40px;
-    &__h2{
-        font-size: 24px;
-        font-weight: 600;
-        &--span{
-            text-transform: uppercase;
-        }
-    }
-}
-
