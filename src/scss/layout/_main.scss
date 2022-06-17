@@ -11,6 +11,10 @@
         justify-items: center;
         padding-bottom: 45px;
         align-items: center;
+        @media all and (min-width:900px){
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
         }
         &__section1{
         display: flex;
@@ -33,6 +37,7 @@
                 font-weight: 600;
                 font-size: 1rem;
             }
+        
         }
         &__section2{
             display: flex;
@@ -94,12 +99,19 @@
 }
 .box1{
     margin-top: 40px;
+    @media all and (min-width:900px){
+        grid-column: 1/4;
+         // grid-column-start: 1;
+         // grid-column-end: 3;
+     }
     &__h2{
-        font-size: 24px;
-        font-weight: 600;
+    font-size: 24px;
+    font-weight: 600;
+    
         &--span{
             text-transform: uppercase;
         }
+    
     }
 }
 .diferent-h3  {
