@@ -11,7 +11,7 @@
   width: 100vw;
   background-color: $color-main-font;
   color: #b6c8c9;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,12 +22,25 @@
         &--h5{
           font-size: 20px;
           font-weight: 600;
-          padding-bottom: 12px;
+          padding-bottom: 15px;
+          margin-left: 20%;
         }
         &--ul li{
           width: 210px;
           padding-bottom: 5px;
           font-size: 14px;
+          margin-left: 20%;
         }
     }
+    &__icon{
+      transform: translate(160px, 30px  );
+
+    }
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 25px;
 }
