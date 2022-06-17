@@ -18,7 +18,6 @@
           left: 30px;
           font-size: 20px;
       }
-
       &__logo{
           width: auto;
           height: auto;
@@ -48,5 +47,18 @@
             cursor: pointer;
           }
       }
+
+}
+.rowMenu{
+  color: $color-main-font;
+  font-size: 16px;
+  width: 450px;
+  padding: 75px 1030px 0 280px;
+  row-gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: none;  
+
 
 }
