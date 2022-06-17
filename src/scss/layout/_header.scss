@@ -61,7 +61,7 @@
     }
     @media all and (min-width:900px){
         max-width: 430px;
-        margin: 240px 0 0 -150px;
+        margin: 240px 0 0 -20%;
         align-items: flex-start;
           &__h1{
             font-size: 36px;
@@ -100,6 +100,13 @@
     &__bar{
       display: none;
     }
+    &__logo{
+      position: relative;
+      top: -75px;
+    }
+  }
+  .hero{
+    margin: 10% 0 0 -35%;
   }
   .rowMenu{
     display: flex;
