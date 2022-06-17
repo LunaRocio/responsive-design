@@ -62,6 +62,12 @@
                     font-size: 16px;
                     text-transform: capitalize;
                     text-decoration: none;
+                    &:hover{
+                        color: $color-main-font;
+                        background-color: white;
+                        transform: scale(1.2);
+                        cursor: pointer;
+                      }
                 }
         }
 

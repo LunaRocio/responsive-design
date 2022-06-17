@@ -42,7 +42,10 @@
         font-size: 16px;
         text-transform: capitalize;
           &:hover{
-            color: aqua;
+            color: $color-main-font;
+            background-color: white;
+            transform: scale(1.2);
+            cursor: pointer;
           }
       }
 
