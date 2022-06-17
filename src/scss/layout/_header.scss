@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 
 .menu1{
@@ -70,8 +69,7 @@
           &__button{
             margin-top: 20px;
           }
-      }
-     
+      }   
 }
 .rowMenu{
   color: $color-main-font;
@@ -124,20 +122,6 @@
   //     transform: translate(-50%, 80%);
   //   }
   // }
-
-  // .menu1__logo{
-  //   justify-content: center;
-  //   align-items: center;
-  //   text-align: center;
-  //   font-display: block;
-  //   justify-self: center;
-  //   justify-items: center;
-  //   align-self: center;    
-  //   align-content: flex-start;
-  // }    
-    
-  
-
 //   }
 // }
 
