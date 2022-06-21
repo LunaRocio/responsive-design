@@ -1,0 +1,19 @@
+.newSection{
+   
+    background-color: $color-main-font;
+    color: $light-color-font;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        &__fig{
+            color: $light-color-font;
+            text-decoration: none;
+        }
+        @media all and (min-width:900px){
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: $color-bg-secondary;
+        }    
+}
